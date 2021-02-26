@@ -1,13 +1,13 @@
 # Misskey Cherry theme
 Theme for Misskey based on [Cherry colors (KDE Theme)](https://store.kde.org/p/1450880).
 
-# Use
+## Use
 
 Copy this code on misskey theme editor :
 
 ```
 {
-	id: 'hy45mdhje8g',
+	id: '36db26ef-bc30-452e-919f-f23bfa926ceb',
 	base: 'dark',
 	desc: 'Cherry color theme',
 	name: 'Cherry',
@@ -37,7 +37,16 @@ Copy this code on misskey theme editor :
 	author: 'KazukyAkayashi',
 }
 ```
+## Stylus CSS
 
-# Screenshot
+Add this code in Stylus for custom the cards background
+
+```
+.mk-url-preview > a > article[data-v-454399c2] {
+    background-color: rgba(25, 25, 35, 0.50);
+}
+```
+
+## Screenshot
 
 ![Cherry theme](cherry-misskey-theme-01.png)
