@@ -39,7 +39,7 @@ Copy this code on misskey theme editor :
 ```
 ## Stylus CSS
 
-Add this code in Stylus for custom the cards background
+Add this code in Stylus for custom the cards background.
 
 ```
 .mk-url-preview > a > article[data-v-454399c2] {
