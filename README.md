@@ -20,7 +20,7 @@ Copy this code on misskey theme editor :
 		navFg: '@fg',
 		panel: '#23232f',
 		accent: '#ff578b',
-		header: 'rgbargba(37, 37, 49,0.75)',
+		header: 'rgba(37, 37, 49,0.75)',
 		pageBg: '@bg',
 		renote: '#64de83',
 		divider: 'rgba(32, 32, 32, 0.7)',
