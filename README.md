@@ -7,10 +7,14 @@ Copy this code on misskey theme editor :
 
 ```
 {
-	id: '36db26ef-bc30-452e-919f-f23bfa926ceb',
-	base: 'dark',
-	desc: 'Cherry color theme',
+	id: '0a1757f3-4340-47f1-be7b-f36e5289b727',
+
 	name: 'Cherry',
+	author: '@kazukyakayashi@meow.zarchbox.fr',
+	desc: 'Theme for Misskey based on Cherry colors (KDE Theme)',
+
+	base: 'dark',
+
 	props: {
 		bg: '#1c1c25',
 		fg: '#eceff4',
@@ -36,13 +40,13 @@ Copy this code on misskey theme editor :
 	},
 	author: 'KazukyAkayashi',
 }
-```
-## Stylus CSS
+````
 
-Add this code in Stylus for custom the cards background.
+## In Stylus or Misskey CSS editor
 
 ```
-.mk-url-preview > a > article[data-v-454399c2] {
+/* bg for link preview */
+.mk-url-preview > a > article {
     background-color: rgba(25, 25, 35, 0.50);
 }
 ```
